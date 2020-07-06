@@ -1,5 +1,6 @@
 <?php
 $cfgConfigFile = './mjs_config.json';
+$keys = array("action_name","idsite","rec","r","urlref","url","_id","_idts","_idvc","_idn","_refts","_viewts","send_image","gt_ms","pv_id");
 
 
 if (!file_exists($cfgConfigFile)) {
@@ -29,7 +30,6 @@ if (!file_exists($cfgConfigFile)) {
 
     // Generate replace values
     $newReplaceValues = array();
-    $keys = array("action_name","idsite","rec","r","urlref","url","_id","_idts","_idvc","_idn","_refts","_viewts","send_image","gt_ms","pv_id");
 
 
     foreach ($keys as $k => $key) {
