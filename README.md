@@ -2,14 +2,12 @@
 
 If you are using the standard config of Matomo you are missing out on a lot of potential data on your website. The schema used by Matomo is widely known to AdBlockers and thereby the tracking is not working for visitors of your website using AdBlockers.
 
-## Support
+## Enterprise Support
 
-Please support this project by purchasing a support license on [Gumroad](https://gum.co/matomo_circumvent_adblock). It is only a few bucks and helps me to continue working on this project. 
+If you need help with your Installation or Support with the Setup, I offer Enterprise Support. Please contact me via mcab@simon-frey.com.
 
 
 ## Installation
-
-**If you need help with your Installation [I offer to install it for you](https://gum.co/matomo_circumvent_adblock)**
 
 1) Open a shell on your Matomo server
 2) Go into your main Matomo directory
@@ -28,4 +26,4 @@ If you find any issue, please report them via [Github issues](https://github.com
 
 ## License
 
-This project is licensed [MIT](https://github.com/simonfrey/matomo_circumvent_adblock/blob/master/LICENSE). I know that gives you the ability to use it however you want. But please considering supporting by buying a support license on [Gumroad](https://gum.co/matomo_circumvent_adblock)
+This project is licensed [MIT](https://github.com/simonfrey/matomo_circumvent_adblock/blob/master/LICENSE)
