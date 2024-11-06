@@ -17,7 +17,9 @@ if (isset($_GET["siteID"])) {
     var _paq = _paq || [];
     _paq.push(["trackPageView"]), _paq.push(["enableLinkTracking"]),
     function() {
-        _paq.push(["setTrackerUrl", "<?php echo $baseURL.$phpFilename;?>"]), _paq.push(["setSiteId", "<?php echo $siteID;?>"]);
+        _paq.push(["setTrackerUrl", "<?php echo $baseURL.$phpFilename;?>"]);
+        _paq.push(["setSiteId", "<?php echo $siteID;?>"]);
+        _paq.push(['disableAlwaysUseSendBeacon', 'true']);
         var a = document, r = a.createElement("script"), s = a.getElementsByTagName("script")[0];
         r.async = !0, r.defer = !0, r.src = "<?=$baseURL.$jsFilename;?>", s.parentNode.insertBefore(r, s)
     }();
